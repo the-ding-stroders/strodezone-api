@@ -1,0 +1,24 @@
+{
+  "kind": "collectionType",
+  "collectionName": "streamers",
+  "info": {
+    "name": "Streamer"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true
+  },
+  "attributes": {
+    "streamKey": {
+      "type": "string",
+      "unique": true,
+      "maxLength": 32,
+      "minLength": 32
+    },
+    "user": {
+      "plugin": "users-permissions",
+      "model": "user",
+      "via": "streamer"
+    }
+  }
+}

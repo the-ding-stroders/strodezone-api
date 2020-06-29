@@ -1,0 +1,37 @@
+{
+  "name": "strodezone-api",
+  "private": true,
+  "version": "0.1.0",
+  "description": "API for The Ding Stroders community apps",
+  "scripts": {
+    "develop": "strapi develop",
+    "start": "strapi start",
+    "build": "strapi build",
+    "strapi": "strapi"
+  },
+  "devDependencies": {},
+  "dependencies": {
+    "strapi": "3.0.5",
+    "strapi-admin": "3.0.5",
+    "strapi-connector-mongoose": "3.0.5",
+    "strapi-plugin-content-manager": "3.0.5",
+    "strapi-plugin-content-type-builder": "3.0.5",
+    "strapi-plugin-email": "3.0.5",
+    "strapi-plugin-graphql": "3.0.5",
+    "strapi-plugin-upload": "3.0.5",
+    "strapi-plugin-users-permissions": "3.0.5",
+    "strapi-utils": "3.0.5"
+  },
+  "author": {
+    "name": "David Thomas",
+    "email": "dev@synth3.tk"
+  },
+  "strapi": {
+    "uuid": "10644c94-e5fa-4b75-9266-726f7049c734"
+  },
+  "engines": {
+    "node": ">=10.0.0",
+    "npm": ">=6.0.0"
+  },
+  "license": "MIT"
+}
