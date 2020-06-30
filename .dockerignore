@@ -1,6 +1,7 @@
 .dockerignore
 .git
 .gitignore
+Dockerfile
 app/.env
 app/config/jwt.json
 app/node_modules/**/*
